@@ -1,151 +1,142 @@
 # Ex02 Time Table
-# Date:
-# AIM
+
+### Name : Kamalesh Y
+### Reg No : 21223243001
+
+
+## AIM
 To write a html webpage page to display your slot timetable.
 
-# ALGORITHM
-## STEP 1
+## ALGORITHM
+### STEP 1
 Create a Django-admin Interface.
 
-## STEP 2
+### STEP 2
 Create a static folder and inert HTML code.
 
-## STEP 3
-Create a simple table using `<table>` tag in html.
+### STEP 3
+Create a simple table using ```<table>``` tag in html.
 
-## STEP 4
-Add header row using `<th>` tag.
+### STEP 4
+Add header row using ```<th>``` tag.
 
-## STEP 5
-Add your timetable using `<td>` tag.
+### STEP 5
+Add your timetable using ```<td>``` tag.
 
-## STEP 6
+### STEP 6
 Execute the program using runserver command.
 
-# PROGRAM
+## PROGRAM
 ```
-
 <html>
 <head>
-
+<title>Slot Timetable</title>
 </head>
 <body>
-    <style>
-        th{
-            background-color:orange;
-        }
-        td{
-            background-color:lightblue;
-        }
-
-        img{
-            margin-left:30%;
-        }
-        caption{
-            align-items: center;
-            font-size: larger;
-        }
-        #sta {
-            width:60%;
-            height:40%;
-        }
-        #abc
-        {
-           width:50%;
-           height:30%;
-        }
-        body{
- background-image:linear-gradient(#EEBD89,lightgreen);
-        }
-    </style>
-    <img src="sec.png">
-    <br>
-    <br>
-
-     
 <center>
-<table border="2" id="sta">
-    <caption>SLOT TIME TABLE  KAMALESH Y (24004024)</caption>
-   
-        <tr>
-            <th>Day/Time</th>
-            <th>8-10</th>
-            <th>10-12</th>
-            <th>12-1</th>
-            <th>1-3</th>
-            <th>3-5</th>
-            </tr>
-        <tr>
-            <th>Monday</th>
-            <td>FWAD</td>
-            <td>FREE SLOT</td>
-            <td style="text-align: center;"><h3> L</h3></td>
-            <td>Python</td>
-            <td>FREE SLOT</td>
-        </tr>
-        <tr>
-            <th>Tuesday</th>
-            <td colspan="2">CE</td>
-            <td style="text-align: center;"><h3> U</h3></td>
-            <td colspan="2">FREE SLOT</td>
-        </tr>
-        <tr>
-            <th>Wednesday</th>
-            <td colspan="2">FWAD</td>
-            <td style="text-align: center;"><h3> N</h3></td>
-            <td>MENTOR MEET</td>
-            <td>Python</td>
-        </tr>
-        <tr>
-            <th>Thursday</th>
-            <td>CE</td>
-            <td>Python</td>
-            <td style="text-align: center;"><h3> C</h3></td>
-            <td>CE</td>
-            <td>FCP</td>
-            
-        </tr>
-        <tr>
-            <th>Saturday</th>
-            <td>CE</td>
-            <td>FWAD</td>
-        <td style="text-align: center;"><h3> H</h3></td>
-        <td>CE</td>
-        <td>FREE SLOT</td>
-         </tr>
-</table>
-<br>
-<br>
-<br>
-<table border="3" id="abc">
-    <tr>
-        <th>S.No</th>
-        <th>Subject Code</th>
-        <th>Subject Name</th>
-    </tr>
-    <tr>
-        <td>1.</td>
-    <td>19AI414</td>  
-<td >Fundamental of Web Application Development(FWAD)</td>  </tr>
-<tr>
-    <td>2.</td>
-    <td>19AI304</td>
-    <td>Python</td>
-</tr>
-<tr>
-    <td>3.</td>
-    <td>19EN101</td>
-    <td>Communicative English(CE)</td>
-</tr>
-</table>
+<img src="C:\Users\admin\Desktop\Screenshot 2025-10-25 132437.png" height="100" width="500">
 </center>
-
-
+<br>
+<table align="center" width="500" cellspacing="3" cellpadding="2" border="2" bgcolor="yellow">
+<caption><b>SLOT TIME TABLE - Kamalesh.y (212223243001)</b></caption>
+<tr align="center">
+<th bgcolor="cyan">Day/Time</th>
+<th bgcolor="cyan">Monday</th>
+<th bgcolor="cyan">Tuesday</th>
+<th bgcolor="cyan">Wednesday</th>
+<th bgcolor="cyan">Thursday</th>
+<th bgcolor="cyan">Friday</th>
+</tr>
+<tr align="center">
+<th bgcolor="pink">8-10</th>
+<td>FREE SLOT</td>
+<td>EXPLORATORY DATA ANAYSIS</td>
+<td>EXPLORATORY DATA ANALYSIS</td>
+<td>FREE SLOT</td>
+<td>FREE SLOT</td>
+</tr>
+<tr align="center">
+<th bgcolor="pink">10-12</th>
+<td>FREE SLOT</td>
+<td>INTRO TO ML</td>
+<td>FUNDAMENTALS OF WEB APPLICATION</td>
+<td>CLOUD COMPUTING</td>
+<td>COMPUTER ARCHITECTURE</td>
+</tr>
+<tr>
+<th bgcolor="pink">12-1</th>
+<td colspan="6" align="center">L U N C H    B R E A K </td>
+</tr>
+<tr align="center">
+<th bgcolor="pink">1-3</th>
+<td>FUNDAMENTALS OF WEB APPLICATIONS</td>
+<td>FREE SLOT</td>
+<td>MENTOR MEET</td>
+<td>FREE SLOT</td>
+<td>CLOUD COMPUTING</td>
+</tr>
+<tr align="center">
+<th bgcolor="pink">3-5</th>
+<td>FREE SLOT</td>
+<td>PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
+<td>INTRO TO ML</td>
+<td>COMPILER DESIGN</td>
+<td>COMPILER DESIGN</td>
+</tr>
+</table>
+<br>
+<table align="center" cellspacing="2" cellpadding="2" border="2">
+<tr align="center">
+<th>S. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+<td align="center">1.</td>
+<td align="center">19AI414</td>
+<td align ="center">FUNDAMENTALS OF WEB APPLICATION</font></b></td>
+</tr>
+<tr>
+<td align="center">2.</td>
+<td align="center">19AI555</td>
+<td align="center">EXPLORATORY DATA ANALYSIS</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">3.</td>
+<td align="center">19AI541</td>
+<td align="center">CLOUD COMPUTING</td>
+</tr>
+<tr>
+<td align="center">4.</td>
+<td align="center">19AI410</td>
+<td align="center">INTRO TO ML</td>
+</tr>
+<tr>
+<td align="center">5.</td>
+<td align="center">19CS305</td>
+<td align="center">COMPUTER ARCHITECTURE</td>
+</tr>
+<tr>
+<td align="center">6.</td>
+<td align="center">19CS409</td>
+<td align="center">COMPILER DESIGN</td>
+</tr>
+<tr>
+<td align="center">7.</td>
+<td align="center">19CY205</td>
+<td align="center">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
+</tr>
+</table>
 </body>
 </html>
 ```
-# OUTPUT
+
+## OUTPUT
+
+<img width="1498" height="1051" alt="Screenshot 2025-10-25 133327" src="https://github.com/user-attachments/assets/b1df361a-2387-405d-a007-31030dfe0a6b" />
 
 
-# RESULT
+
+## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
